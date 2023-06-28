@@ -1,3 +1,4 @@
+"use client"
 import { Divider } from '@chakra-ui/react';
 import React from 'react';
 import moment from 'moment';
