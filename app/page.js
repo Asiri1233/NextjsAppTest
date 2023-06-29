@@ -21,7 +21,7 @@ const page = () => {
           <div className="mt-[2rem] lg:mt-[4rem]">
             <h2 className="text-white lg:text-2xl md:text-2xl lg:mt-5 mt-3  text-center font-semibold xl:text-3xl text-[1.5rem] font-poppins">
               ARE YOU TIRED OF FALLING TO {""}
-              <span className="text-red-800 animate-pulse">SCAMS?</span> <br />
+              <span className="">SCAMS?</span> <br />
               <span className="hidden md:block m-2">LOOK NO FURTHER!</span>
               <span className="">
                 DISCOVER THE MOST VOUCHED AND BEST SHOPS IN THE CRACKING
@@ -40,7 +40,7 @@ const page = () => {
               </Link>
               <div className="flex justify-center mt-9">
 
-            <img src="https://i.imgur.com/I9r3J4u.png" className="w-10 h-10 animate-bounce cursor-pointer " />
+            <img src="https://cdn-icons-png.flaticon.com/512/5093/5093064.png" className="w-10 h-10 animate-bounce cursor-pointer " />
               </div>
             </div>
           </div>

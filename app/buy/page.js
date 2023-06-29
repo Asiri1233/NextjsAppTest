@@ -7,7 +7,7 @@ import Link from "next/link";
 
 
 const page = () => (
-  <div className="w-[100%] md:h-[100vh]  background">
+  <div className="w-[100%] h-[100%]  background">
     <div className="relative">
       <NavBar background="background" />
     </div>
