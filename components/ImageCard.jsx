@@ -28,8 +28,8 @@ const ImageCard = ({ image, shopProfileImg, shopName, shopLink, shopDesc, _id, c
               ))}
             </div>
             <div className="card-actions justify-end absolute bottom-0 right-0 mb-7 mr-6">
-              <a href={shopLink} target="_blank" className="btn btn-primary">
-                Join now!
+              <a href={shopLink} target="_blank" className="btn bg-transparent border border-white hover:bg-blue-400 hover:text-white">
+                Visit now!
               </a>
             </div>
           </div>
