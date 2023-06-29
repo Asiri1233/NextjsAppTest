@@ -96,6 +96,14 @@
         "async": false
       }
     },
+    "(app-client)/./app/success/page.js": {
+      "*": {
+        "id": "(sc_client)/./app/success/page.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./app/buy/page.js": {
       "*": {
         "id": "(sc_client)/./app/buy/page.js",
@@ -315,6 +323,14 @@
       ],
       "async": false
     },
+    "/Users/asiridewthilina/Code/VercelDeploy/app/success/page.js": {
+      "id": "(app-client)/./app/success/page.js",
+      "name": "*",
+      "chunks": [
+        "app/success/page:static/chunks/app/success/page.js"
+      ],
+      "async": false
+    },
     "/Users/asiridewthilina/Code/VercelDeploy/app/buy/page.js": {
       "id": "(app-client)/./app/buy/page.js",
       "name": "*",
@@ -335,6 +351,10 @@
       ]
     },
     "/Users/asiridewthilina/Code/VercelDeploy/app/page": {
+      "modules": [],
+      "files": []
+    },
+    "/Users/asiridewthilina/Code/VercelDeploy/app/success/page": {
       "modules": [],
       "files": []
     },

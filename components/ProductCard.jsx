@@ -26,7 +26,7 @@ const ProductCard = ({ title, price, duration, hide , cut , image , dkey ,dprece
               </h5>
             </a>
             <div className="mt-2 mb-5 flex items-center justify-between">
-              <p classNameName="">
+              <p className="">
                 <span className="text-3xl font-bold text-white">${price}</span>
                 <span className="text-sm text-white line-through">${cut}</span>
               </p>
