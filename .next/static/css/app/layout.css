@@ -1803,15 +1803,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .animate-bounce{
   animation: bounce 1s infinite;
 }
-@keyframes pulse{
-
-  50%{
-    opacity: .5;
-  }
-}
-.animate-pulse{
-  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-}
 .cursor-pointer{
   cursor: pointer;
 }
@@ -2099,10 +2090,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .text-gray-900{
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
-}
-.text-red-800{
-  --tw-text-opacity: 1;
-  color: rgb(153 27 27 / var(--tw-text-opacity));
 }
 .text-transparent{
   color: transparent;
