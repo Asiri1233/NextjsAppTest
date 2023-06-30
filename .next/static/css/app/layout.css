@@ -1583,6 +1583,9 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .mb-2{
   margin-bottom: 0.5rem;
 }
+.mb-3{
+  margin-bottom: 0.75rem;
+}
 .mb-4{
   margin-bottom: 1rem;
 }
@@ -1597,9 +1600,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 .mb-\[4rem\]{
   margin-bottom: 4rem;
-}
-.ml-2{
-  margin-left: 0.5rem;
 }
 .ml-3{
   margin-left: 0.75rem;
@@ -1651,12 +1651,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 .mt-\[3rem\]{
   margin-top: 3rem;
-}
-.mb-1{
-  margin-bottom: 0.25rem;
-}
-.mb-3{
-  margin-bottom: 0.75rem;
 }
 .block{
   display: block;
@@ -2405,10 +2399,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
   .xl\:mb-\[4rem\]{
     margin-bottom: 4rem;
-  }
-
-  .xl\:ml-4{
-    margin-left: 1rem;
   }
 
   .xl\:mt-\[8rem\]{

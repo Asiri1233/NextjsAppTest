@@ -56,7 +56,7 @@ const page = () => (
           className="text-white bg-[#2557D6] hover:bg-[#2557D6]/90  focus:ring-[#2557D6]/50 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#2557D6]/50 mr-2 mb-2"
         >
           <img
-            itemprop="image"
+            itemProp="image"
             className="w-5 h-5 mr-2"
             src="https://freelogopng.com/images/all_img/1683045226telegram-logo-black.png"
             width="100"

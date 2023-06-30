@@ -56,6 +56,22 @@
         "async": false
       }
     },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/react-hot-toast/dist/index.mjs": {
+      "*": {
+        "id": "(sc_client)/./node_modules/react-hot-toast/dist/index.mjs",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./components/Card.jsx": {
       "*": {
         "id": "(sc_client)/./components/Card.jsx",
@@ -75,30 +91,6 @@
     "(app-client)/./components/Stats.jsx": {
       "*": {
         "id": "(sc_client)/./components/Stats.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/link.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/react-hot-toast/dist/index.mjs": {
-      "*": {
-        "id": "(sc_client)/./node_modules/react-hot-toast/dist/index.mjs",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./components/Form.jsx": {
-      "*": {
-        "id": "(sc_client)/./components/Form.jsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -275,6 +267,30 @@
       ],
       "async": false
     },
+    "/Users/asiridewthilina/Code/VercelDeploy/node_modules/next/dist/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/buy/page:static/chunks/app/buy/page.js"
+      ],
+      "async": false
+    },
+    "/Users/asiridewthilina/Code/VercelDeploy/node_modules/next/dist/esm/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/buy/page:static/chunks/app/buy/page.js"
+      ],
+      "async": false
+    },
+    "/Users/asiridewthilina/Code/VercelDeploy/node_modules/react-hot-toast/dist/index.mjs": {
+      "id": "(app-client)/./node_modules/react-hot-toast/dist/index.mjs",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
     "/Users/asiridewthilina/Code/VercelDeploy/components/Card.jsx": {
       "id": "(app-client)/./components/Card.jsx",
       "name": "*",
@@ -299,38 +315,6 @@
       ],
       "async": false
     },
-    "/Users/asiridewthilina/Code/VercelDeploy/node_modules/next/dist/client/link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/buy/page:static/chunks/app/buy/page.js"
-      ],
-      "async": false
-    },
-    "/Users/asiridewthilina/Code/VercelDeploy/node_modules/next/dist/esm/client/link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/buy/page:static/chunks/app/buy/page.js"
-      ],
-      "async": false
-    },
-    "/Users/asiridewthilina/Code/VercelDeploy/node_modules/react-hot-toast/dist/index.mjs": {
-      "id": "(app-client)/./node_modules/react-hot-toast/dist/index.mjs",
-      "name": "*",
-      "chunks": [
-        "app/form/page:static/chunks/app/form/page.js"
-      ],
-      "async": false
-    },
-    "/Users/asiridewthilina/Code/VercelDeploy/components/Form.jsx": {
-      "id": "(app-client)/./components/Form.jsx",
-      "name": "*",
-      "chunks": [
-        "app/form/page:static/chunks/app/form/page.js"
-      ],
-      "async": false
-    },
     "/Users/asiridewthilina/Code/VercelDeploy/app/buy/page.js": {
       "id": "(app-client)/./app/buy/page.js",
       "name": "*",
@@ -341,10 +325,6 @@
     }
   },
   "entryCSSFiles": {
-    "/Users/asiridewthilina/Code/VercelDeploy/app/page": {
-      "modules": [],
-      "files": []
-    },
     "/Users/asiridewthilina/Code/VercelDeploy/app/layout": {
       "modules": [
         "/Users/asiridewthilina/Code/VercelDeploy/app/globals.css",
@@ -354,7 +334,7 @@
         "static/css/app/layout.css"
       ]
     },
-    "/Users/asiridewthilina/Code/VercelDeploy/app/form/page": {
+    "/Users/asiridewthilina/Code/VercelDeploy/app/page": {
       "modules": [],
       "files": []
     },
