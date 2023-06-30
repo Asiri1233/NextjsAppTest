@@ -24,11 +24,11 @@ const ImageCard = ({ image, shopProfileImg, shopName, shopLink, shopDesc, _id, c
             <Divider />
             <div>
               {shopDesc.split('\n').map((paragraph, index) => (
-                <p key={index} className="mb-2">{paragraph}</p>
+                <p key={index} className="mb-2 font-light text-gray-200">{paragraph}</p>
               ))}
             </div>
             <div className="card-actions justify-end absolute bottom-0 right-0 mb-7 mr-6">
-              <a href={shopLink} target="_blank" className="btn bg-transparent border border-white hover:bg-blue-400 hover:text-white">
+              <a href={shopLink} target="_blank" className="btn bg-transparent border border-white text-white hover:bg-blue-400 hover:text-white">
                 Visit now!
               </a>
             </div>
