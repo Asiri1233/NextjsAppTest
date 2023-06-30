@@ -178,7 +178,7 @@ const Form = () => {
         <button
           disabled={state.submitting}
           type="submit"
-          className="text-white border border-white rounded-lg p-2 px-4 hover:bg-blue-100 hover:text-black duration-200"
+          className="text-white border border-white rounded-lg p-2 px-4 hover:bg-blue-100 hover:text-black duration-200 mb-3 md:mb-0"
         >
           Submit
         </button>

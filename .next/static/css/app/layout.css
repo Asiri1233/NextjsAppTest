@@ -1652,6 +1652,12 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .mt-\[3rem\]{
   margin-top: 3rem;
 }
+.mb-1{
+  margin-bottom: 0.25rem;
+}
+.mb-3{
+  margin-bottom: 0.75rem;
+}
 .block{
   display: block;
 }
@@ -1745,11 +1751,11 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .max-w-\[25rem\]{
   max-width: 25rem;
 }
+.max-w-\[40rem\]{
+  max-width: 40rem;
+}
 .max-w-screen-xl{
   max-width: 1280px;
-}
-.max-w-xs{
-  max-width: 20rem;
 }
 .shrink-0{
   flex-shrink: 0;
@@ -1917,10 +1923,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .bg-transparent{
   background-color: transparent;
 }
-.bg-white{
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
 .bg-\[url\(\'https\:\/\/res\.cloudinary\.com\/dok8vgjce\/image\/upload\/v1687361721\/n0Yh6ks_wxvyqd\.jpg\'\)\]{
   background-image: url('https://res.cloudinary.com/dok8vgjce/image/upload/v1687361721/n0Yh6ks_wxvyqd.jpg');
 }
@@ -2033,20 +2035,14 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .font-bold{
   font-weight: 700;
 }
+.font-light{
+  font-weight: 300;
+}
 .font-medium{
   font-weight: 500;
 }
 .font-semibold{
   font-weight: 600;
-}
-.font-thin{
-  font-weight: 100;
-}
-.font-extralight{
-  font-weight: 200;
-}
-.font-light{
-  font-weight: 300;
 }
 .uppercase{
   text-transform: uppercase;
@@ -2060,6 +2056,10 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .text-blue-600{
   --tw-text-opacity: 1;
   color: rgb(37 99 235 / var(--tw-text-opacity));
+}
+.text-gray-200{
+  --tw-text-opacity: 1;
+  color: rgb(229 231 235 / var(--tw-text-opacity));
 }
 .text-gray-500{
   --tw-text-opacity: 1;
@@ -2075,14 +2075,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-.text-gray-100{
-  --tw-text-opacity: 1;
-  color: rgb(243 244 246 / var(--tw-text-opacity));
-}
-.text-gray-200{
-  --tw-text-opacity: 1;
-  color: rgb(229 231 235 / var(--tw-text-opacity));
 }
 .line-through{
   text-decoration-line: line-through;

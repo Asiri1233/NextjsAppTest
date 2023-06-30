@@ -5,7 +5,7 @@ const ProductCard = ({ title, price, duration, hide , cut , image , dkey ,dprece
     <div className="">
       <div className="">
         <div></div>
-        <div className="group border-gray-100/30 flex w-full max-w-xs flex-col self-center overflow-hidden rounded-lg border bg-gray-700 shadow-md ">
+        <div className="group border-gray-100/30 flex w-full max-w-[40rem] flex-col self-center overflow-hidden rounded-lg border bg-gray-700 shadow-md">
           <a
             className="relative mx-3 mt-3 flex h-60 overflow-hidden rounded-xl"
             href="#"
@@ -31,7 +31,7 @@ const ProductCard = ({ title, price, duration, hide , cut , image , dkey ,dprece
                 <span className="text-sm text-white line-through">${cut}</span>
               </p>
             </div>
-            <div className="flex ml-2 xl:ml-4 flex-row items-center">
+            <div className="flex flex-row items-center w-[100%] justify-center">
             <button
               data-sellix-product={dkey}
               data-sellix-css="https://cdn.sellix.io/static/css/custom-embed-styles.css"

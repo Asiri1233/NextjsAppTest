@@ -10,8 +10,8 @@ const Stepper = ({li , border}) => {
             1
         </span>
         <span>
-            <h3 className="font-medium leading-tight">Buy Key</h3>
-            <p className="text-sm">Buy from sellix or dm on telegram</p>
+            <h3 className="font-medium leading-tight">Buy key</h3>
+            <p className="text-sm">Buy from sellix or via Telegram</p>
         </span>
     </li>
     <li className={`flex items-center space-x-2.5}${li} gap-1`}>
@@ -20,7 +20,7 @@ const Stepper = ({li , border}) => {
         </span>
         <span>
             <h3 className="font-medium leading-tight">Fill the form</h3>
-            <p className="text-sm">Redeem your key in form</p>
+            <p className="text-sm">Redeem your key in the form</p>
         </span>
     </li>
     <li className="flex items-center text-gray-500 dark:text-gray-400 space-x-2.5">
@@ -28,8 +28,8 @@ const Stepper = ({li , border}) => {
             3
         </span>
         <span>
-            <h3 className="font-medium leading-tight">Wait for confirmation</h3>
-            <p className="text-sm">30min to 1h</p>
+            <h3 className="font-medium leading-tight">Wait for the confirmation</h3>
+            <p className="text-sm">This will take 15min to 30min</p>
         </span>
     </li>
 </ol>
