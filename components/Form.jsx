@@ -46,7 +46,7 @@ const Form = () => {
       <form onSubmit={handleFormSubmit}>
         <div className="grid gap-6 mb-6 md:grid-cols-2">
           <div>
-            <label htmlFor="key" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+            <label htmlFor="key" className="block mb-2 text-sm font-medium text-white">
               Key
             </label>
             <input

@@ -18,7 +18,7 @@ function NavBar({background}) {
             className="h-8 mr-3"
             alt="Flowbite Logo"
           />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+          <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
             Pixel MP
           </span>
         </Link>
@@ -55,14 +55,14 @@ function NavBar({background}) {
             <li>
               <Link
                 href="/"
-                className="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:p-0 dark:text-white hover:text-blue-500 hover:scale-105 duration-300" >
+                className="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:p-0  hover:text-blue-500 hover:scale-105 duration-300" >
                 Home
               </Link>
             </li>
             <li>
               <Link
                 href="/buy"
-                className="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:p-0 dark:text-white hover:text-blue-500 hover:scale-105 duration-300"
+                className="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:p-0  hover:text-blue-500 hover:scale-105 duration-300"
               >
                 Redeem/Buy
               </Link>
@@ -79,7 +79,7 @@ function NavBar({background}) {
             <li>
               <a
                 href="https://t.me/WRestocker " target='_blank'
-                className="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:p-0 dark:text-white hover:text-blue-500 hover:scale-105 duration-300"
+                className="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:p-0 hover:text-blue-500 hover:scale-105 duration-300"
               >
                 Contact
               </a>

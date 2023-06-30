@@ -22,7 +22,7 @@ const page = () => (
       <ProductCard title="30-Day Access Key &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; " price="100" cut="120" duration="/month" image="https://res.cloudinary.com/dok8vgjce/image/upload/v1687366897/image_fhhvgg.png" dkey="6490dc8969b64" dprecent="16"/>
       <ProductCard title="60-Day Acess Key (Limited) &nbsp; " cut="220" price="180" duration="/months" hide={true} image="https://res.cloudinary.com/dok8vgjce/image/upload/v1687367076/image_jbevci.png" dkey="6493259e2e3e4" dprecent="19"/>
     </div>
-    <p className="mt-5 border border-white rounded-md px-3 text-ellipsis text-center">Or, you can buy directly via Telegram message.</p>
+    <p className="mt-5 border border-white rounded-md px-3 text-ellipsis text-center text-white">Or, you can buy directly via Telegram message.</p>
     <div className="mt-[2rem] flex flex-col items-center">
           <a
             href="https://t.me/WRestocker" target="_blank"
