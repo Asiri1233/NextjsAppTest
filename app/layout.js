@@ -8,8 +8,8 @@ const inter = Inter({ subsets: ['latin'] })
  
 
 export const metadata = {
-  title: 'Pixel Mp',
-  description: 'Marketplace for richz',
+  title: 'Pixel MP',
+  description: 'Discover the most vouched and best shops in the cracking community',
 }
 
 export default function RootLayout({ children }) {
