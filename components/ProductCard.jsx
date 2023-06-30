@@ -34,7 +34,6 @@ const ProductCard = ({ title, price, duration, hide , cut , image , dkey ,dprece
             <div className="flex flex-row items-center w-[100%] justify-center">
             <button
               data-sellix-product={dkey}
-              data-sellix-css="https://cdn.sellix.io/static/css/custom-embed-styles.css"
                type="submit"
                alt="Buy Now with sellix.io"
            

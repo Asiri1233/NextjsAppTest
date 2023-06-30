@@ -2,7 +2,7 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import Footer from '@/components/Footer'
 import { Toaster } from 'react-hot-toast'
-import { Poppins } from 'next/font/google'
+
 
 const inter = Inter({ subsets: ['latin'] })
  
@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
       </head>
       <body className={inter.className}>
       <script src="https://cdn.sellix.io/static/js/embed.js" data-nscript="afterInteractive"/>
-      <link href="https://cdn.sellix.io/static/css/custom-embed-styles.css" id="sellix-css" rel="stylesheet"/>
+      <link href="https://cdn.sellix.io/static/css/embed.css" rel="stylesheet"/>
       {children}
       <Footer />
       <Toaster />
