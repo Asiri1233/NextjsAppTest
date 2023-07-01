@@ -18,17 +18,17 @@ const page = () => (
       <div className="flex flex-col md:flex-row gap-4">
         <ProductCard
           title="7-Day Access Key"
-          price="28"
-          cut="35"
+          price="15"
+          cut="25"
           duration="/week"
           image="https://res.cloudinary.com/dok8vgjce/image/upload/v1687366673/image_yakty8.png"
           dkey="6490cff15a267"
-          dprecent="20"
+          dprecent="40"
         />
         <ProductCard
           title="30-Day Access Key"
-          price="100"
-          cut="120"
+          price="50"
+          cut="60"
           duration="/month"
           image="https://res.cloudinary.com/dok8vgjce/image/upload/v1687366897/image_fhhvgg.png"
           dkey="6490dc8969b64"
@@ -36,13 +36,13 @@ const page = () => (
         />
         <ProductCard
           title="60-Day Access Key"
-          cut="220"
-          price="180"
+          cut="100"
+          price="90"
           duration="/months"
           hide={true}
           image="https://res.cloudinary.com/dok8vgjce/image/upload/v1687367076/image_jbevci.png"
           dkey="6493259e2e3e4"
-          dprecent="19"
+          dprecent="10"
         />
       </div>
       <p className="mt-5 border border-white rounded-md px-3 text-ellipsis text-center text-white">

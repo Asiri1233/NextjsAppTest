@@ -103,14 +103,6 @@
         "chunks": [],
         "async": false
       }
-    },
-    "(app-client)/./components/Form.jsx": {
-      "*": {
-        "id": "(sc_client)/./components/Form.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
     }
   },
   "edgeSSRModuleMapping": {},
@@ -287,7 +279,7 @@
       "id": "(app-client)/./components/NavBar.jsx",
       "name": "*",
       "chunks": [
-        "app/form/page:static/chunks/app/form/page.js"
+        "app/buy/page:static/chunks/app/buy/page.js"
       ],
       "async": false
     },
@@ -303,7 +295,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/form/page:static/chunks/app/form/page.js"
+        "app/buy/page:static/chunks/app/buy/page.js"
       ],
       "async": false
     },
@@ -311,7 +303,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/form/page:static/chunks/app/form/page.js"
+        "app/buy/page:static/chunks/app/buy/page.js"
       ],
       "async": false
     },
@@ -319,7 +311,7 @@
       "id": "(app-client)/./node_modules/react-hot-toast/dist/index.mjs",
       "name": "*",
       "chunks": [
-        "app/form/page:static/chunks/app/form/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -328,14 +320,6 @@
       "name": "*",
       "chunks": [
         "app/buy/page:static/chunks/app/buy/page.js"
-      ],
-      "async": false
-    },
-    "/Users/asiridewthilina/Code/VercelDeploy/components/Form.jsx": {
-      "id": "(app-client)/./components/Form.jsx",
-      "name": "*",
-      "chunks": [
-        "app/form/page:static/chunks/app/form/page.js"
       ],
       "async": false
     }
@@ -355,10 +339,6 @@
       ]
     },
     "/Users/asiridewthilina/Code/VercelDeploy/app/buy/page": {
-      "modules": [],
-      "files": []
-    },
-    "/Users/asiridewthilina/Code/VercelDeploy/app/form/page": {
       "modules": [],
       "files": []
     }
