@@ -56,30 +56,6 @@
         "async": false
       }
     },
-    "(app-client)/./components/Card.jsx": {
-      "*": {
-        "id": "(sc_client)/./components/Card.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./components/NavBar.jsx": {
-      "*": {
-        "id": "(sc_client)/./components/NavBar.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./components/Stats.jsx": {
-      "*": {
-        "id": "(sc_client)/./components/Stats.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./node_modules/next/dist/client/link.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
@@ -99,6 +75,14 @@
     "(app-client)/./app/buy/page.js": {
       "*": {
         "id": "(sc_client)/./app/buy/page.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/NavBar.jsx": {
+      "*": {
+        "id": "(sc_client)/./components/NavBar.jsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -267,30 +251,6 @@
       ],
       "async": false
     },
-    "/Users/asiridewthilina/Code/VercelDeploy/components/Card.jsx": {
-      "id": "(app-client)/./components/Card.jsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/asiridewthilina/Code/VercelDeploy/components/NavBar.jsx": {
-      "id": "(app-client)/./components/NavBar.jsx",
-      "name": "*",
-      "chunks": [
-        "app/buy/page:static/chunks/app/buy/page.js"
-      ],
-      "async": false
-    },
-    "/Users/asiridewthilina/Code/VercelDeploy/components/Stats.jsx": {
-      "id": "(app-client)/./components/Stats.jsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
     "/Users/asiridewthilina/Code/VercelDeploy/node_modules/next/dist/client/link.js": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
@@ -322,13 +282,17 @@
         "app/buy/page:static/chunks/app/buy/page.js"
       ],
       "async": false
+    },
+    "/Users/asiridewthilina/Code/VercelDeploy/components/NavBar.jsx": {
+      "id": "(app-client)/./components/NavBar.jsx",
+      "name": "*",
+      "chunks": [
+        "app/buy/page:static/chunks/app/buy/page.js"
+      ],
+      "async": false
     }
   },
   "entryCSSFiles": {
-    "/Users/asiridewthilina/Code/VercelDeploy/app/page": {
-      "modules": [],
-      "files": []
-    },
     "/Users/asiridewthilina/Code/VercelDeploy/app/layout": {
       "modules": [
         "/Users/asiridewthilina/Code/VercelDeploy/app/globals.css",

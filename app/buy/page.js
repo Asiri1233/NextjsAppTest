@@ -18,7 +18,7 @@ const page = () => (
       <div className="flex flex-col md:flex-row gap-4">
         <ProductCard
           title="7-Day Access Key"
-          price="15"
+          price="14.99"
           cut="25"
           duration="/week"
           image="https://res.cloudinary.com/dok8vgjce/image/upload/v1687366673/image_yakty8.png"
@@ -27,7 +27,7 @@ const page = () => (
         />
         <ProductCard
           title="30-Day Access Key"
-          price="50"
+          price="49.99"
           cut="60"
           duration="/month"
           image="https://res.cloudinary.com/dok8vgjce/image/upload/v1687366897/image_fhhvgg.png"
@@ -37,7 +37,7 @@ const page = () => (
         <ProductCard
           title="60-Day Access Key"
           cut="100"
-          price="90"
+          price="89.99"
           duration="/months"
           hide={true}
           image="https://res.cloudinary.com/dok8vgjce/image/upload/v1687367076/image_jbevci.png"
