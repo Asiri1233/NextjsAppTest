@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-      <script async src="https://pixelanalytics.up.railway.app/script.js" data-website-id="564b7ec7-c789-4352-acea-e63255f2facf"></script>
+      <script async src="https://umaminext.vercel.app/script.js" data-website-id="4c48a5c8-a5ef-4747-9b54-c3a69ee5b746"></script>
       </head>
       <body className={inter.className}>
       <script src="https://cdn.sellix.io/static/js/embed.js" data-nscript="afterInteractive"/>
