@@ -2,6 +2,8 @@
 import React, { useState, useEffect } from "react";
 import ImageCard from "./ImageCard";
 import axios from "axios";
+import moment from 'moment';
+import { Divider } from '@chakra-ui/react';
 
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -24,9 +26,28 @@ const Card = () => {
       .catch((err) => console.log(err));
   }, []);
 
+  const staticCard = {
+    shopBanner: "https://i.imgur.com/I1vvzGr.jpeg",
+    shopProfileImg: "https://i.imgur.com/I1vvzGr.jpeg",
+    shopName: "MemeShop",
+    shopDesc: "✅ Are you looking for high quality accounts and fast and friendly support? You are in the right place!\n\n✅ We sell NFA/FA products and we do lots of drops and giveaways in our channel, I can guarantee that you won't be disappointed with our service.\n\n✅ Shop link: memeshop.cc\n✅ Channel link: https://t.me/plugmeme\n✅ Support: @memeplugsupport\n✅ Chat link: @plugmemechat",
+    shopLink: "http://memeshop.cc/"
+  };
+
   return (
     <>
-      <div className="grid  lg:grid-cols-2 xl:grid-cols-3 lg:grid-rows- md:grid-cols-2 z-10">
+      <div className="grid lg:grid-cols-2 xl:grid-cols-3 lg:grid-rows- md:grid-cols-2 z-10">
+        <div>
+          <ImageCard
+            _id="static-card"
+            image={staticCard.shopBanner}
+            shopProfileImg={staticCard.shopProfileImg}
+            shopName={staticCard.shopName}
+            shopDesc={staticCard.shopDesc}
+            shopLink={staticCard.shopLink}
+            createdAt={moment().toISOString()}
+          />
+        </div>
         {card.map(
           ({
             shopBanner,
