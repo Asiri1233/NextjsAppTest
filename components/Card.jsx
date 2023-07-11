@@ -18,7 +18,7 @@ const Card = () => {
 
   useEffect(() => {
     axios
-      .get("https://backendofpixel-e8b606781a1f.herokuapp.com/posts")
+      .get("https://pixelbackend.onrender.com/posts")
       .then((res) => {
         const shuffledCard = shuffleArray(res.data);
         setCard(shuffledCard);
