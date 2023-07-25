@@ -27,7 +27,7 @@ const Card = () => {
   }, []);
 
   const staticCard = {
-    shopBanner: "https://i.imgur.com/I1vvzGr.jpeg",
+    shopBanner: "https://i.imgur.com/y8lOM4d.jpg",
     shopProfileImg: "https://i.imgur.com/I1vvzGr.jpeg",
     shopName: "MemeShop",
     shopDesc: "✅ Are you looking for high quality accounts and fast and friendly support? You are in the right place!\n\n✅ We sell NFA/FA products and we do lots of drops and giveaways in our channel, I can guarantee that you won't be disappointed with our service.\n\n✅ Shop link: memeshop.cc\n✅ Channel link: https://t.me/plugmeme\n✅ Support: @memeplugsupport\n✅ Chat link: @plugmemechat",

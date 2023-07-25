@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-      <script async src="https://umaminext.vercel.app/script.js" data-website-id="4c48a5c8-a5ef-4747-9b54-c3a69ee5b746"></script>
+      <script async src="https://umamiupdate-vu9i.vercel.app/script.js" data-website-id="07fb6230-5f0f-4059-812a-b556aae3dac7"></script>
       </head>
       <body className={inter.className}>
       <script src="https://cdn.sellix.io/static/js/embed.js" data-nscript="afterInteractive"/>
