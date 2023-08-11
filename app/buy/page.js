@@ -14,7 +14,11 @@ const page = () => (
       <div className="flex items-center md:mt-[8rem] mt-[3rem] sm:mt-[4rem] justify-center md:mb-[3rem] mb-[4rem] ">
         <Stepper />
       </div>
-
+      <div>
+        <h1 className="text-red-500 lg:text-3xl font-bold text-center md:text-2xl text-xl">
+          !IMPORTANT ATM YOU CAN ONLY BUY VIA TELEGRAM MESSAGE @WRestocker
+        </h1>
+      </div>
       <div className="flex flex-col md:flex-row gap-4">
         <ProductCard
           title="7-Day Access Key"

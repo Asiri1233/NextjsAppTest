@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import { toast } from "react-hot-toast";
@@ -11,13 +11,13 @@ const Form = () => {
     websiteUrl: "",
     card: "",
     shopDescription: "",
-    telegramChannel: ""
+    telegramChannel: "",
   });
 
   const handleInputChange = (e) => {
     setFormValues({
       ...formValues,
-      [e.target.name]: e.target.value
+      [e.target.name]: e.target.value,
     });
   };
 
@@ -35,7 +35,7 @@ const Form = () => {
         websiteUrl: "",
         card: "",
         shopDescription: "",
-        telegramChannel: ""
+        telegramChannel: "",
       });
       toast.success("We will confirm your request shortly");
     }
@@ -46,7 +46,10 @@ const Form = () => {
       <form onSubmit={handleFormSubmit}>
         <div className="grid gap-6 mb-6 md:grid-cols-2">
           <div>
-            <label htmlFor="key" className="block mb-2 text-sm font-medium text-white">
+            <label
+              htmlFor="key"
+              className="block mb-2 text-sm font-medium text-white"
+            >
               Key
             </label>
             <input
@@ -59,15 +62,14 @@ const Form = () => {
               placeholder="A5R9P8-•••••"
               required
             />
-            <ValidationError 
-              prefix="Key" 
-              field="key" 
-              errors={state.errors}
-            />
+            <ValidationError prefix="Key" field="key" errors={state.errors} />
           </div>
 
           <div>
-            <label htmlFor="bannerGif" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+            <label
+              htmlFor="bannerGif"
+              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            >
               Banner/Gif
             </label>
             <input
@@ -80,15 +82,18 @@ const Form = () => {
               placeholder="https://imgur.com/.gif"
               required
             />
-            <ValidationError 
-              prefix="Banner/Gif" 
-              field="bannerGif" 
+            <ValidationError
+              prefix="Banner/Gif"
+              field="bannerGif"
               errors={state.errors}
             />
           </div>
 
           <div>
-            <label htmlFor="websiteUrl" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+            <label
+              htmlFor="websiteUrl"
+              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            >
               Website URL
             </label>
             <input
@@ -101,15 +106,18 @@ const Form = () => {
               placeholder="www.example.com"
               required
             />
-            <ValidationError 
-              prefix="Website URL" 
-              field="websiteUrl" 
+            <ValidationError
+              prefix="Website URL"
+              field="websiteUrl"
               errors={state.errors}
             />
           </div>
 
           <div>
-            <label htmlFor="card" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+            <label
+              htmlFor="card"
+              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            >
               Card
             </label>
             <textarea
@@ -124,15 +132,14 @@ const Form = () => {
               required
               rows={4}
             />
-            <ValidationError 
-              prefix="Card" 
-              field="card" 
-              errors={state.errors}
-            />
+            <ValidationError prefix="Card" field="card" errors={state.errors} />
           </div>
 
           <div>
-            <label htmlFor="shopDescription" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+            <label
+              htmlFor="shopDescription"
+              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            >
               Shop Description
             </label>
             <textarea
@@ -146,15 +153,18 @@ const Form = () => {
               maxLength={250}
               rows={6}
             />
-            <ValidationError 
-              prefix="Shop Description" 
-              field="shopDescription" 
+            <ValidationError
+              prefix="Shop Description"
+              field="shopDescription"
               errors={state.errors}
             />
           </div>
 
           <div>
-            <label htmlFor="telegramChannel" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+            <label
+              htmlFor="telegramChannel"
+              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            >
               Telegram Channel
             </label>
             <input
@@ -167,9 +177,9 @@ const Form = () => {
               placeholder="https://t.me/xyz"
               required
             />
-            <ValidationError 
-              prefix="Telegram Channel" 
-              field="telegramChannel" 
+            <ValidationError
+              prefix="Telegram Channel"
+              field="telegramChannel"
               errors={state.errors}
             />
           </div>
