@@ -1,9 +1,9 @@
-"use client"
+"use client";
 import React, { useState, useEffect } from "react";
 import ImageCard from "./ImageCard";
 import axios from "axios";
-import moment from 'moment';
-import { Divider } from '@chakra-ui/react';
+import moment from "moment";
+import { Divider } from "@chakra-ui/react";
 
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -30,8 +30,15 @@ const Card = () => {
     shopBanner: "https://i.imgur.com/y8lOM4d.jpg",
     shopProfileImg: "https://i.imgur.com/I1vvzGr.jpeg",
     shopName: "MemeShop",
-    shopDesc: "✅ Are you looking for high quality accounts and fast and friendly support? You are in the right place!\n\n✅ We sell NFA/FA products and we do lots of drops and giveaways in our channel, I can guarantee that you won't be disappointed with our service.\n\n✅ Shop link: memeshop.cc\n✅ Channel link: https://t.me/plugmeme\n✅ Support: @memeplugsupport\n✅ Chat link: @plugmemechat",
-    shopLink: "http://memeshop.cc/"
+    shopDesc: `✅ Are you looking for high-quality accounts and fast and friendly support? You are in the right place.
+
+    ✅ We sell NFA/FA products, and we do lots of drops and giveaways in our channel. I can guarantee that you won't be disappointed with our service.
+    
+    ✅ Shop link: [memeshop.cc](http://memeshop.cc/)
+    ✅ Channel link: [https://t.me/memeshopback](https://t.me/memeshopback)
+    ✅ Chat link: [https://t.me/memeshopchat](https://t.me/memeshopchat)
+    ✅ Support: [@memeplugsupport](https://t.me/memeplugsupport)`,
+    shopLink: "http://memeshop.cc/",
   };
 
   return (
