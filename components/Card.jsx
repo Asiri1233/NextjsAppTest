@@ -35,8 +35,8 @@ const Card = () => {
     ✅ We sell NFA/FA products, and we do lots of drops and giveaways in our channel. I can guarantee that you won't be disappointed with our service.
     
     ✅ Shop link: memeshop.cc
-    ✅ Channel link: https://t.me/memeshopnew
-    ✅ Chat link: https://t.me/memeshopchat
+    ✅ Channel link: https://t.me/MemeGatewayBot
+    ✅ Chat link: https://t.me/MemeGatewayBot
     ✅ Support: @memeplugsupport`,
     shopLink: "http://memeshop.cc/",
   };
